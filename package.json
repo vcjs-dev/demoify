@@ -30,8 +30,7 @@
     "format": "prettier --write src/",
     "release": "npm run build:lib && npm run build:type && changelogen --release && npm publish --access=public && git push --follow-tags",
     "build:app": "cross-env BUILD_TYPE=app vite build",
-    "build:lib": "cross-env BUILD_TYPE=lib vite build",
-    "build:types": "vue-tsc --declaration --emitDeclarationOnly -p tsconfig.vitest.json --composite false"
+    "build:lib": "cross-env BUILD_TYPE=lib vite build"
   },
   "peerDependencies": {
     "vue": "^3.3.4"
