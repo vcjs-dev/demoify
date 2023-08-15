@@ -15,7 +15,7 @@
       </div>
 
       <div v-show="expand" class="demo-panel__code-content">
-        <pre class="language-markup"><code><slot name="code" /></code></pre>
+        <slot name="code" />
       </div>
 
       <div class="demo-panel__footer">
@@ -38,7 +38,6 @@
 </template>
 
 <script lang="ts" setup>
-import 'prismjs'
 import ArrowDownIcon from '@/lib/icons/arrow-down.svg?component'
 import { ref } from 'vue'
 
