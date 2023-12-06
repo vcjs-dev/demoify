@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.1.0
+
+[compare changes](https://undefined/undefined/compare/v2.0.1...v2.1.0)
+
+### 🚀 Enhancements
+
+- Demo-panel support set initial expand value (3f7d9f7)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.1
 
 [compare changes](https://undefined/undefined/compare/v2.0.0...v2.0.1)
