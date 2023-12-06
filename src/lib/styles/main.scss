@@ -1,6 +1,18 @@
+body {
+  margin: 0;
+}
+
 :root {
   --demoify-primary-color: hsla(160, 100%, 37%, 1);
-  --demoify-font-family: fangsong, math;
   --demoify-text-color: #7b7b82;
   --demoify-title-color: #222222;
+  --demoify-border-color: #e4e7ed;
+}
+
+:root {
+  --demoify-font-family: fangsong, math;
+}
+
+:root {
+  --demoify-header-height: 80px;
 }

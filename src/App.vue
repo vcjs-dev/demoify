@@ -10,7 +10,13 @@
         { href: '/', title: 'Github' },
       ]"
     />
-    <RouterView />
+
+    <DemoContainer>
+      <DemoSidebar />
+      <DemoMain>
+        <RouterView />
+      </DemoMain>
+    </DemoContainer>
   </div>
 </template>
 

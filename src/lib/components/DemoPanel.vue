@@ -83,7 +83,7 @@ export default defineComponent({
   }
 
   &__content {
-    border: 1px solid #ebebeb;
+    border: 1px solid var(--demoify-border-color);
     border-radius: 3px;
     transition: 0.2s;
   }
@@ -101,7 +101,7 @@ export default defineComponent({
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    border-top: 1px solid #eaeefb;
+    border-top: 1px solid var(--demoify-border-color);
     padding: 14px;
   }
 

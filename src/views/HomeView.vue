@@ -6,9 +6,11 @@
       <template #code>
         <pre class="lang-markup">
           <code>    
-          {{ `
-        <div>demo</div>
-        ` }}
+          {{ 
+            `
+            <div>demo</div>
+            ` 
+          }}
         </code></pre>
       </template>
     </DemoPanel>

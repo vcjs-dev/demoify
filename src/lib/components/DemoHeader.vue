@@ -45,16 +45,18 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .demo-header {
+  height: var(--demoify-header-height);
+  box-sizing: border-box;
   background-color: #fff;
-  border-bottom: 1px solid #e4e7ed;
+  border-bottom: 1px solid var(--demoify-border-color);
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 120px;
   position: sticky;
   left: 0;
   top: 0;
+  z-index: 10;
 
   .logo {
     width: 40px;
