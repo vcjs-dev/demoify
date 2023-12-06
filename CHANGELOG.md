@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.0.0
+
+[compare changes](https://undefined/undefined/compare/v1.3.0...v2.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Some new componets (5c5e0b3)
+
+#### ⚠️  Breaking Changes
+
+- ⚠️  Some new componets (5c5e0b3)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.3.0
 
 [compare changes](https://undefined/undefined/compare/v1.2.0...v1.3.0)
