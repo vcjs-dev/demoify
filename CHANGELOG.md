@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.0.1
+
+[compare changes](https://undefined/undefined/compare/v2.0.0...v2.0.1)
+
+### 🩹 Fixes
+
+- **types:** Update types (1e994c5)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.0
 
 [compare changes](https://undefined/undefined/compare/v1.3.0...v2.0.0)
