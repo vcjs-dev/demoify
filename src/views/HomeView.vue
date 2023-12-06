@@ -1,16 +1,16 @@
 <template>
   <main class="home-main">
-    <DemoPanel title="This is a title" description="This is a description">
-      demo
+    <DemoPanel
+      title="This is a title"
+      description="This is a description"
+      :initial-expand="true"
+    >
+      A demo Show
 
       <template #code>
         <pre class="lang-markup">
           <code>    
-          {{ 
-            `
-            <div>demo</div>
-            ` 
-          }}
+          {{`<div>demo</div>`}}
         </code></pre>
       </template>
     </DemoPanel>
@@ -18,7 +18,12 @@
 </template>
 
 <script lang="ts" setup>
-import 'prismjs'
+import prism from 'prismjs'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  prism.highlightAll()
+})
 </script>
 
 <style lang="scss" scoped>

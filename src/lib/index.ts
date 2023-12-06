@@ -20,4 +20,4 @@ export default {
   install,
 }
 
-export { DemoPanel, DemoHeader }
+export { DemoPanel, DemoHeader, DemoSidebar, DemoContainer, DemoMain }

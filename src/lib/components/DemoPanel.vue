@@ -41,15 +41,18 @@
 import ArrowDownIcon from '@/lib/icons/arrow-down.svg?component'
 import { ref } from 'vue'
 
-withDefaults(
+const props = withDefaults(
   defineProps<{
     title?: string
     description?: string
+    initialExpand?: boolean
   }>(),
-  {},
+  {
+    initialExpand: false,
+  },
 )
 
-const expand = ref(false)
+const expand = ref(props.initialExpand)
 const handleExpand = () => {
   expand.value = !expand.value
 }
