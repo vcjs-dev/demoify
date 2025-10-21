@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.1.1
+
+[compare changes](https://undefined/undefined/compare/v2.1.0...v2.1.1)
+
+### 🏡 Chore
+
+- Up vue to 3.5 (954b43d)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.1.0
 
 [compare changes](https://undefined/undefined/compare/v2.0.1...v2.1.0)
